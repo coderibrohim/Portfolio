@@ -27,7 +27,7 @@ const About = () => {
       >
         {/* Sarlavha */}
         <h1 className="text-5xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-pink-400 to-purple-400 drop-shadow-lg">
-          About Me 
+          About Me
         </h1>
 
         {/* Men haqimda */}
@@ -45,7 +45,7 @@ const About = () => {
         {/* Texnologiyalar */}
         <div>
           <h2 className="text-2xl font-semibold mb-5 text-pink-400">
-            Ko‘nikmalarim 
+            Ko‘nikmalarim
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             {skills.map((skill, i) => (
@@ -62,10 +62,11 @@ const About = () => {
 
         {/* CV tugmasi */}
         <motion.a
-          href="#"
+          href="/Ibrohimjon_Mamayusupov_CV_UZ_v2.pdf"
           className="inline-block mt-10 px-10 py-3 rounded-xl bg-gradient-to-r from-indigo-600 to-pink-500 font-semibold text-white shadow-lg hover:shadow-pink-500/30 transition-all duration-300"
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
+          target="_blank"
         >
           Download CV 📄
         </motion.a>

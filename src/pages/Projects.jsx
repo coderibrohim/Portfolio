@@ -3,34 +3,22 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    name: "SweetShop",
-    desc: "Shirinliklar sotiladigan onlayn do‘kon. Mahsulotlar ro‘yxatini ko‘rish, savatchaga qo‘shish va narxlarni avtomatik hisoblash imkoniyati mavjud.",
-    tech: "React, Context API, CSS",
-    link: "https://imtihon-6-oy-orpin.vercel.app/",
+    name: "Kitchen App",
+    desc: "Foydalanuvchilarni ro‘yxatdan o‘tkazish va tizimga kirish imkoniyatlariga ega hamda taomlar retseplarini qo'shish, tayyor retseplarni olish.",
+    tech: "React, Authentication",
+    link: "https://authentication-one-pied.vercel.app/",
   },
   {
-    name: "CUUser",
-    desc: "Zamonaviy foydalanuvchi interfeysiga ega veb-loyiha. Saytda foydalanuvchilarga qulay navigatsiya, chiroyli kartalar va soddaligi bilan ajralib turadi.",
-    tech: "React, CSS",
-    link: "https://cuuser.netlify.app/",
+    name: "Random User",
+    desc: "Tasodifiy foydalanuvchilar ma’lumotlarini ko‘rsatadigan interaktiv loyiha.",
+    tech: "React, API",
+    link: "https://random-user-six-delta.vercel.app/",
   },
   {
-    name: "FakeShop",
-    desc: "Minimalistik kiyim-kechak onlayn do‘koni. API’dan ma’lumot olib, mahsulotlarni kartalarda ko‘rsatadi. Foydalanuvchi uchun qulay interfeys bilan yaratilgan.",
-    tech: "React, JavaScript, Tailwind CSS",
-    link: "https://fakeshop-7.netlify.app",
-  },
-  {
-    name: "Country Filter",
-    desc: "Dunyo davlatlarini mintaqalar bo‘yicha filtrlash imkonini beruvchi interaktiv sayt.",
-    tech: "JavaScript (Vanilla JS), Tailwind CSS",
-    link: "https://imtihon-5-oy-5.netlify.app/",
-  },
-  {
-    name: "Todo List App",
-    desc: "Vazifalarni qo‘shish, o‘chirish va bajarilgan deb belgilash imkoniyatiga ega oddiy ToDo ilova.",
-    tech: "JavaScript, HTML, CSS, localStorage",
-    link: "https://ibrohimjon-todos.netlify.app/",
+    name: "Tennis Shot Counter",
+    desc: "Tennis o‘yinidagi zarbalarni hisoblash uchun yaratilgan interaktiv counter ilovasi.",
+    tech: "React, JavaScript",
+    link: "https://tennis-shot-counter.vercel.app/",
   },
 ];
 
@@ -52,7 +40,7 @@ const Projects = () => {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
         {projects.map((p, i) => (
           <motion.div
-            key={i}
+            key={p.name}
             className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-md hover:shadow-lg hover:shadow-indigo-500/10 transition-all duration-500"
             initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
@@ -68,10 +56,11 @@ const Projects = () => {
                   {p.desc}
                 </p>
                 <p className="text-xs text-gray-400">
-                  <span className="text-indigo-400 font-semibold">Tech:</span>
+                  <span className="text-indigo-400 font-semibold">Tech: </span>
                   {p.tech}
                 </p>
               </div>
+
               <div className="mt-6 text-right">
                 <a
                   href={p.link}
@@ -79,7 +68,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="inline-block px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition"
                 >
-                  View 🔗
+                  Live Demo 🔗
                 </a>
               </div>
             </div>
