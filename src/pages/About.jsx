@@ -62,7 +62,7 @@ const About = () => {
 
         {/* CV tugmasi */}
         <motion.a
-          href="/Ibrohimjon.CV.pdf"
+          href="/Ibrohimjon.CV(1).pdf"
           className="inline-block mt-10 px-10 py-3 rounded-xl bg-gradient-to-r from-indigo-600 to-pink-500 font-semibold text-white shadow-lg hover:shadow-pink-500/30 transition-all duration-300"
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
