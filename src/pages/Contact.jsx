@@ -34,7 +34,7 @@ const Contact = () => {
 
         {/* Telegram tugmasi */}
         <motion.a
-          href="https://t.me/codewith_ibrohim"
+          href="https://t.me/mahbubiy571i"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 px-8 py-4 rounded-lg bg-gradient-to-r from-indigo-600 to-pink-500 font-semibold shadow-lg hover:shadow-pink-500/30 transition-transform duration-300 hover:scale-105 cursor-pointer"
