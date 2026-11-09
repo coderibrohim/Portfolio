@@ -20,6 +20,12 @@ const projects = [
     tech: "React, JavaScript",
     link: "https://tennis-shot-counter.vercel.app/",
   },
+  {
+    name: "Weather App",
+    desc: "Dunyonig istalgan joyidagi ob-havni aniqlash va  ko'rish uchun yartilgan loyiha ",
+    tech: "JavaScript, Html, Css",
+    link: "https://weatherapps-omega.vercel.app",
+  },
 ];
 
 const Projects = () => {
