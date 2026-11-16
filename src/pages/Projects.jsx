@@ -26,6 +26,12 @@ const projects = [
     tech: "JavaScript, Html, Css",
     link: "https://weatherapps-omega.vercel.app",
   },
+  {
+    name: "Nova Shop",
+    desc: "Online do'kon bo'lib, mahsulotlarni ko'rish, qidirish, kategoriyalar bo'yicha filterlash, batafsil ma'lumotlarni ko'rish va savatchaga mahsulot qo'shish imkoniyatlarini taqdim etadi.",
+    tech: "React, JavaScript, Tailwind CSS, Shadcn UI, React Router",
+    link: "https://nova-shop-cyan.vercel.app",
+  },
 ];
 
 const Projects = () => {
