@@ -29,8 +29,15 @@ const projects = [
   {
     name: "Nova Shop",
     desc: "Online do'kon bo'lib, mahsulotlarni ko'rish, qidirish, kategoriyalar bo'yicha filterlash, batafsil ma'lumotlarni ko'rish va savatchaga mahsulot qo'shish imkoniyatlarini taqdim etadi.",
-    tech: "React, JavaScript, Tailwind CSS, Shadcn UI, React Router",
+    tech: "React, JavaScript, Tailwind CSS, Shadcn UI, React Router,Context",
     link: "https://nova-shop-cyan.vercel.app",
+  },
+
+  {
+    name: "MovieZone",
+    desc: "Filmlarni kashf qilish uchun yaratilgan web ilova. Trending va mashhur filmlarni ko'rish, filmlarni qidirish, sahifalash orqali ko'rib chiqish hamda har bir film haqida batafsil ma'lumot olish imkoniyatlarini taqdim etadi.",
+    tech: "React, JavaScript, Tailwind CSS, React Router, API",
+    link: "https://movies-app-neon-seven.vercel.app",
   },
 ];
 
