@@ -89,7 +89,7 @@ const About = () => {
               </h2>
 
               <p className="text-gray-400 text-base sm:text-lg leading-8">
-                Salom! Men{" "}
+                Salom! Men
                 <span className="text-white font-semibold">
                   Ibrohimjon Mamayusupov
                 </span>
@@ -129,7 +129,7 @@ const About = () => {
 
               {/* CV */}
               <motion.a
-                href="/cv.pdf"
+                href="/Ibrohimjon_CV_yangilangan.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.03, y: -3 }}
